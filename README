@@ -1,0 +1,376 @@
+libxml++26
+-------------------------------------------
+libxml++ is a C++ wrapper for the libxml XML parser library.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  glibmm24-2.8.6-1
+  libsigc++20-2.0.17-1
+  libxml2-2.6.22-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.1.90-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  gcc-g++-3.4.4-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://libxmlplusplus.sourceforge.net/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/libxml++/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libxml++26-2.14.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libxml++26-2.14.0-1.cygport all
+
+This will create:
+  /usr/src/libxml++26-2.14.0-1-src.tar.bz2
+  /usr/src/libxml++26-2.14.0-1.tar.bz2
+  /usr/src/libxml++26-devel-2.14.0-1.tar.bz2
+  /usr/src/libxml++26-doc-2.14.0-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the main package:
+
+  /usr/bin/cygxml++-2.6-2.dll
+  /usr/share/doc/Cygwin/libxml++26-2.14.0.README
+  /usr/share/doc/libxml++26-2.14.0/AUTHORS
+  /usr/share/doc/libxml++26-2.14.0/COPYING
+  /usr/share/doc/libxml++26-2.14.0/ChangeLog
+  /usr/share/doc/libxml++26-2.14.0/INSTALL
+  /usr/share/doc/libxml++26-2.14.0/NEWS
+  /usr/share/doc/libxml++26-2.14.0/README
+
+Files included in the devel package:
+
+  /usr/include/libxml++-2.6/libxml++/attribute.h
+  /usr/include/libxml++-2.6/libxml++/document.h
+  /usr/include/libxml++-2.6/libxml++/dtd.h
+  /usr/include/libxml++-2.6/libxml++/exceptions/exception.h
+  /usr/include/libxml++-2.6/libxml++/exceptions/internal_error.h
+  /usr/include/libxml++-2.6/libxml++/exceptions/parse_error.h
+  /usr/include/libxml++-2.6/libxml++/exceptions/validity_error.h
+  /usr/include/libxml++-2.6/libxml++/io/istreamparserinputbuffer.h
+  /usr/include/libxml++-2.6/libxml++/io/ostreamoutputbuffer.h
+  /usr/include/libxml++-2.6/libxml++/io/outputbuffer.h
+  /usr/include/libxml++-2.6/libxml++/io/parserinputbuffer.h
+  /usr/include/libxml++-2.6/libxml++/keepblanks.h
+  /usr/include/libxml++-2.6/libxml++/libxml++.h
+  /usr/include/libxml++-2.6/libxml++/nodes/cdatanode.h
+  /usr/include/libxml++-2.6/libxml++/nodes/commentnode.h
+  /usr/include/libxml++-2.6/libxml++/nodes/contentnode.h
+  /usr/include/libxml++-2.6/libxml++/nodes/element.h
+  /usr/include/libxml++-2.6/libxml++/nodes/entityreference.h
+  /usr/include/libxml++-2.6/libxml++/nodes/node.h
+  /usr/include/libxml++-2.6/libxml++/nodes/processinginstructionnode.h
+  /usr/include/libxml++-2.6/libxml++/nodes/textnode.h
+  /usr/include/libxml++-2.6/libxml++/noncopyable.h
+  /usr/include/libxml++-2.6/libxml++/parsers/domparser.h
+  /usr/include/libxml++-2.6/libxml++/parsers/parser.h
+  /usr/include/libxml++-2.6/libxml++/parsers/saxparser.h
+  /usr/include/libxml++-2.6/libxml++/parsers/textreader.h
+  /usr/include/libxml++-2.6/libxml++/validators/dtdvalidator.h
+  /usr/include/libxml++-2.6/libxml++/validators/validator.h
+  /usr/lib/libxml++-2.6.dll.a
+  /usr/lib/libxml++-2.6.la
+  /usr/lib/pkgconfig/libxml++-2.6.pc
+
+Files included in the doc package:
+
+  /usr/share/doc/libxml++-2.6/docs/manual/html/ar01s02.html
+  /usr/share/doc/libxml++-2.6/docs/manual/html/index.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/annotated.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/attribute_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/cdatanode_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classbool.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classes.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Attribute-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Attribute.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Attribute__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Attribute__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Attribute__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CdataNode-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CdataNode.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CdataNode__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CdataNode__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CdataNode__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CommentNode-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CommentNode.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CommentNode__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CommentNode__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1CommentNode__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ContentNode-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ContentNode.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ContentNode__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ContentNode__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ContentNode__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Document-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Document.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Document__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Document__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Document__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DomParser-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DomParser.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DomParser__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DomParser__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DomParser__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Dtd-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Dtd.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DtdValidator-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DtdValidator.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DtdValidator__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DtdValidator__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1DtdValidator__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Element-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Element.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Element__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Element__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Element__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1EntityReference-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1EntityReference.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1EntityReference__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1EntityReference__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1EntityReference__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1IStreamParserInputBuffer-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1IStreamParserInputBuffer.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1IStreamParserInputBuffer__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1IStreamParserInputBuffer__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1IStreamParserInputBuffer__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1KeepBlanks-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1KeepBlanks.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Node-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Node.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Node__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Node__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Node__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1NonCopyable-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1NonCopyable.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1NonCopyable__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1NonCopyable__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1NonCopyable__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OStreamOutputBuffer-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OStreamOutputBuffer.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OStreamOutputBuffer__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OStreamOutputBuffer__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OStreamOutputBuffer__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OutputBuffer-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OutputBuffer.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OutputBuffer__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OutputBuffer__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1OutputBuffer__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Parser-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Parser.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ParserInputBuffer-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ParserInputBuffer.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ParserInputBuffer__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ParserInputBuffer__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ParserInputBuffer__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Parser__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Parser__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Parser__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ProcessingInstructionNode-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ProcessingInstructionNode.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ProcessingInstructionNode__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ProcessingInstructionNode__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1ProcessingInstructionNode__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1SaxParser-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1SaxParser.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1SaxParser__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1SaxParser__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1SaxParser__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextNode-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextNode.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextNode__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextNode__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextNode__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextReader-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextReader.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextReader__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextReader__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1TextReader__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Validator-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Validator.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Validator__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Validator__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1Validator__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1exception-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1exception.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1exception__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1exception__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1exception__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1internal__error-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1internal__error.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1internal__error__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1internal__error__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1internal__error__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1parse__error-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1parse__error.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1parse__error__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1parse__error__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1parse__error__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1validity__error-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1validity__error.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1validity__error__inherit__graph.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1validity__error__inherit__graph.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/classxmlpp_1_1validity__error__inherit__graph.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/commentnode_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/contentnode_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000000.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000000_dep.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000000_dep.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000001.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000001_dep.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000001_dep.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000002.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000002_dep.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000002_dep.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000003.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000003_dep.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000003_dep.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000004.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000004_dep.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000004_dep.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000005.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000005_dep.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dir_000005_dep.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dirs.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/document_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/domparser_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/doxygen.css
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/doxygen.png
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dtd_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/dtdvalidator_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/element_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/entityreference_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/exception_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/files.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x63.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x64.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x65.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x66.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x67.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x68.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x69.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x6b.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x6c.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x6d.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x6e.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x6f.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x70.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x72.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x73.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x74.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x76.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x77.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x78.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_0x7e.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_enum.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_eval.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_func.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_rela.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_type.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/functions_vars.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/globals.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/globals_enum.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/globals_eval.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/globals_type.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/graph_legend.dot
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/graph_legend.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/graph_legend.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/hierarchy.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/index.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__0.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__0.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__0.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__1.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__1.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__1.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__2.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__2.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__2.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__3.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__3.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__3.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__4.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__4.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__4.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__5.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__5.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__5.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__6.jpg
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__6.map
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherit__graph__6.md5
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/inherits.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/internal__error_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/istreamparserinputbuffer_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/keepblanks_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/libxml++_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/namespaceSigC.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/namespacemembers.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/namespacemembers_enum.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/namespacemembers_eval.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/namespacemembers_type.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/namespaces.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/namespacexmlpp.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/node_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/noncopyable_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/ostreamoutputbuffer_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/outputbuffer_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/parse__error_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/parser_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/parserinputbuffer_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/processinginstructionnode_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/saxparser_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/structxmlpp_1_1SaxParser_1_1Attribute-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/structxmlpp_1_1SaxParser_1_1Attribute.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/structxmlpp_1_1SaxParser_1_1AttributeHasName-members.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/structxmlpp_1_1SaxParser_1_1AttributeHasName.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/textnode_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/textreader_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/validator_8h.html
+  /usr/share/doc/libxml++-2.6/docs/reference/2.14/html/validity__error_8h.html
+
+--------------------
+
+Port Notes:
+
+----- version 2.14.0-1 -----
+Version bump.
+
+----- version 2.12.0-1 -----
+Version bump.
+Broke out separate -devel and -doc packages.
+
+----- version 2.10.0-1 -----
+New version for GNOME 2.10, including API documentation.
+
+----- version 2.8.0-1 -----
+New upstream release; see ChangeLog and NEWS for details.
+
+There was an API change since 2.6.1, so the DLL version has been bumped; 
+any applications built against 2.6.1 will need to be rebuilt to use this 
+version.
+
+----- version 2.6.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
