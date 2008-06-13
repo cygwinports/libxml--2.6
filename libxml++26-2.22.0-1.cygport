@@ -1,0 +1,11 @@
+inherit gtkmm
+
+DESCRIPTION="C++ bindings for libxml2"
+HOMEPAGE="http://libxmlplusplus.sourceforge.net/"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+PKG_CONTENTS[0]="usr/bin/ usr/share/doc/Cygwin/ usr/share/doc/${P}/"
+PKG_CONTENTS[1]='usr/include/ usr/lib/ usr/share/doc/libxml++-2.6/'
+
+DIFF_EXCLUDES+=" Doxyfile"
