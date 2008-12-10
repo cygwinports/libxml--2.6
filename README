@@ -1,24 +1,24 @@
-libxml++26
+libxml++2.6
 -------------------------------------------
 libxml++ is a C++ wrapper for the libxml XML parser library.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  glibmm24-2.16.2-1
-  libxml2-2.6.32-1
+  cygwin-1.5.25-15
+  libglibmm2.4_1-2.18.3-1
+  libxml2-2.7.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.11-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool-2.2.2-2
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical homepage:
@@ -30,31 +30,31 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libxml++26-2.22.0-1-src.tar.bz2
+  unpack libxml++2.6-2.24.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libxml++26-2.22.0-1.cygport all
+  cygport ./libxml++2.6-2.24.0-1.cygport all
 
 This will create:
-  /usr/src/libxml++26-2.22.0-1-src.tar.bz2
-  /usr/src/libxml++26-2.22.0-1.tar.bz2
-  /usr/src/libxml++26-devel-2.22.0-1.tar.bz2
+  /usr/src/libxml++2.6-2.24.0-1-src.tar.bz2
+  /usr/src/libxml++2.6-devel-2.24.0-1.tar.bz2
+  /usr/src/libxml++2.6_2-2.24.0-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(libxml++26)
+(libxml++2.6_2)
   /usr/bin/cygxml++-2.6-2.dll
-  /usr/share/doc/libxml++26-2.22.0/AUTHORS
-  /usr/share/doc/libxml++26-2.22.0/COPYING
-  /usr/share/doc/libxml++26-2.22.0/ChangeLog
-  /usr/share/doc/libxml++26-2.22.0/INSTALL
-  /usr/share/doc/libxml++26-2.22.0/NEWS
-  /usr/share/doc/libxml++26-2.22.0/README
+  /usr/share/doc/libxml++2.6-2.24.0/AUTHORS
+  /usr/share/doc/libxml++2.6-2.24.0/COPYING
+  /usr/share/doc/libxml++2.6-2.24.0/ChangeLog
+  /usr/share/doc/libxml++2.6-2.24.0/INSTALL
+  /usr/share/doc/libxml++2.6-2.24.0/NEWS
+  /usr/share/doc/libxml++2.6-2.24.0/README
 
-(libxml++26-devel)
+(libxml++2.6-devel)
   /usr/include/libxml++-2.6/libxml++/attribute.h
   /usr/include/libxml++-2.6/libxml++/document.h
   /usr/include/libxml++-2.6/libxml++/dtd.h
@@ -81,18 +81,23 @@ Files included in the binary packages:
   /usr/include/libxml++-2.6/libxml++/parsers/parser.h
   /usr/include/libxml++-2.6/libxml++/parsers/saxparser.h
   /usr/include/libxml++-2.6/libxml++/parsers/textreader.h
+  /usr/include/libxml++-2.6/libxml++/schema.h
   /usr/include/libxml++-2.6/libxml++/validators/dtdvalidator.h
+  /usr/include/libxml++-2.6/libxml++/validators/schemavalidator.h
   /usr/include/libxml++-2.6/libxml++/validators/validator.h
   /usr/lib/libxml++-2.6.dll.a
   /usr/lib/libxml++-2.6.la
   /usr/lib/libxml++-2.6/include/libxml++config.h
   /usr/lib/pkgconfig/libxml++-2.6.pc
   /usr/share/doc/libxml++-2.6/docs/manual/html/*
-  /usr/share/doc/libxml++-2.6/docs/reference/2.22/html/*
+  /usr/share/doc/libxml++-2.6/docs/reference/2.24/html/*
 
 --------------------
 
 Port Notes:
+
+----- version 2.24.0-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 2.22.0-1 -----
 Version bump for GNOME 2.22.
