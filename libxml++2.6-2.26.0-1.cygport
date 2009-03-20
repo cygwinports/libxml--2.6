@@ -4,7 +4,7 @@ DESCRIPTION="C++ bindings for libxml2"
 HOMEPAGE="http://libxmlplusplus.sourceforge.net/"
 
 PKG_NAMES="${PN} ${PN}_2 ${PN}-devel"
-libxml__2_6_2_CONTENTS="usr/bin/*-2.6-2.dll usr/share/doc/Cygwin/ usr/share/doc/${P}/"
+libxml__2_6_2_CONTENTS="usr/bin/*-2.6-2.dll usr/share/doc/Cygwin/ usr/share/doc/${PN}/"
 libxml__2_6_devel_CONTENTS='usr/include/ usr/lib/ usr/share/doc/libxml++-2.6/'
 
 DIFF_EXCLUDES+=" Doxyfile"

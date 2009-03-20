@@ -1,5 +1,5 @@
 category: Libs Gnome
-requires: cygwin libglibmm2.4_1 libxml2
+requires: cygwin libgcc1 libglibmm2.4_1 libstdc++6 libxml2
 external-source: libxml++2.6
 sdesc: "C++ bindings for libxml2 (runtime)"
 ldesc: "libxml++ is a C++ wrapper for the libxml XML parser library."
