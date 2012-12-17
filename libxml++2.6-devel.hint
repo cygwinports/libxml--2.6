@@ -1,5 +1,0 @@
-category: Gnome
-requires: libxml++2.6_2 libglibmm2.4-devel libstdc++6-devel libxml2-devel
-external-source: libxml++2.6
-sdesc: "C++ bindings for libxml2 (development)"
-ldesc: "libxml++ is a C++ wrapper for the libxml XML parser library."

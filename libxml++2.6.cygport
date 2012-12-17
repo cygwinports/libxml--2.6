@@ -1,6 +1,11 @@
 inherit gtkmm
 
-DESCRIPTION="C++ bindings for libxml2"
+NAME="libxml++2.6"
+VERSION=2.36.0
+RELEASE=1
+CATEGORY="Libs GNOME"
+SUMMARY="C++ bindings for libxml2"
+DESCRIPTION="libxml++ is a C++ wrapper for the libxml XML parser library."
 HOMEPAGE="http://libxmlplusplus.sourceforge.net/"
 
 PKG_NAMES="${PN}_2 ${PN}-devel"
