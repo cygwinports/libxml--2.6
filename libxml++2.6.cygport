@@ -2,14 +2,15 @@ inherit gtkmm
 
 NAME="libxml++2.6"
 VERSION=2.36.0
-RELEASE=1
-CATEGORY="Libs GNOME"
+RELEASE=2
+CATEGORY="Libs"
 SUMMARY="C++ bindings for libxml2"
 DESCRIPTION="libxml++ is a C++ wrapper for the libxml XML parser library."
 HOMEPAGE="http://libxmlplusplus.sourceforge.net/"
 
-PKG_NAMES="${PN}_2 ${PN}-devel"
-libxml__2_6_2_CONTENTS="usr/bin/*-2.6-2.dll usr/share/doc/${PN}/"
-libxml__2_6_devel_CONTENTS='usr/include/ usr/lib/ usr/share/devhelp/ usr/share/doc/libxml++-2.6/'
+PKG_NAMES="${NAME}_2 ${NAME}-devel ${NAME}-doc"
+libxml__2_6_2_CONTENTS="usr/bin/*-2.6-2.dll usr/share/doc/${NAME}/"
+libxml__2_6_devel_CONTENTS="usr/include/ usr/lib/"
+libxml__2_6_doc_CONTENTS="usr/share/devhelp/ usr/share/doc/libxml++-2.6/"
 
 DIFF_EXCLUDES+=" Doxyfile"
