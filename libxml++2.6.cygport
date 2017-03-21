@@ -1,7 +1,7 @@
 inherit gtkmm
 
 NAME="libxml++2.6"
-VERSION=2.38.0
+VERSION=2.40.1
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="C++ bindings for libxml2"
